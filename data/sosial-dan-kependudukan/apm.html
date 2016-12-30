@@ -1,0 +1,376 @@
+<html class="no-js">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="description" content="DIGIDATIK adalah media online yang didalamnya berisi mengenai data statistik Indonesia">
+		<meta name="author" content="Rahmat Sabilludin Nurmughni">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Angka Partisipasi Murni | Data Statistik</title>
+		<link rel="shortcut icon" href="../../../images/fav.ico"/>
+
+		<link rel="stylesheet" type="text/css" href="../../resources/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="../../../css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="../css/morris.css">
+
+		<script src="../../resources/js/jquery-1.10.1.min.js"></script>
+		<script src="../../resources/js/vendor/bootstrap.min.js"></script>
+		<script src="../../resources/js/js_css.js"></script>
+
+	<style>
+		.panel-body-description{
+			margin-top: 10px;
+			height: 100px;
+			overflow: auto;
+		}
+		.panel-body .btn img{
+			margin: 0 10px;
+			max-height: 32px;
+		}
+	</style>
+
+	</head>
+	<body>
+		<div class="container">
+			<nav class="navbar navbar-default navbar-fixed-top hidden-print" role="navigation">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				
+					<a class="navbar-brand" href="#">Data Statistik</a>
+				</div>
+
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="gender.html" class="btn btn-danger navbar-btn visible-sm visible-md visible-lg"><i class="icon icon-chevron-left"></i> Back</a>
+						</li>
+						<li>
+							<a href="../../../index.html" class="btn btn-danger navbar-btn visible-sm visible-md visible-lg"><i class="icon icon-home"></i> Portal</a>
+						</li>
+						<li>
+							<a href="../../index.html" class="btn btn-danger navbar-btn visible-sm visible-md visible-lg"><i class="icon icon-tasks"></i> Beranda</a>
+						</li>
+						<li>
+							<a href="../../publikasi.html" class="btn btn-danger navbar-btn visible-sm visible-md visible-lg"><i class="icon icon-comments-alt"></i> Publikasi</a>
+						</li>
+					</ul>
+				
+				</div>
+			</nav>
+			<div style="height: 70px;" class="hidden-print"></div>
+
+			<div class="row">
+	<div class="col-xs-11 col-md-12" id="print">
+		<div class="page-header">
+			<h1><div class="row">
+				<div class="col-sm-8">
+					<i class="icon icon-book"></i> Angka Partisipasi Murni
+				</div>
+				</div>
+			</h1>
+		</div>
+
+		<div id="top_buttons" class="hidden-print">
+			<div class="btn-group btn-group-lg visible-md visible-lg all_records pull-left">
+				<a href="javascript:window.print();" type="submit" name="" id="btnPrint" value="" class="btn btn-default">Print Preview</a>
+				<button onClick="" type="submit" name="" id="CSV" value="" class="btn btn-default">Simpan ke CSV</button>
+				<button onClick="" type="submit" name="" id="Filter" value="" class="btn btn-default">Filter</button>
+				<button onClick="" type="submit" name="" id="NoFilter" value="" class="btn btn-default">Lihat Semua</button>
+			</div>
+
+			<div class="btn-group-vertical btn-group-lg visible-xs visible-sm all_records">
+				<button onClick="" type="submit" name="Print_x" id="Print" value="1" class="btn btn-default">Print Preview</button>
+				<button onClick="" type="submit" name="CSV_x" id="CSV" value="1" class="btn btn-default">Simpan ke CSV</button>
+				<button onClick="" type="submit" name="Filter_x" id="Filter" value="1" class="btn btn-default">Filter</button>
+				<button onClick="" type="submit" name="NoFilter_x" id="NoFilter" value="1" class="btn btn-default">Lihat Semua</button>
+			</div>
+
+			<div class="clearfix">
+			
+		</div>
+		<p></p>
+	</div>
+
+	<div class="table-responsive">
+		<table class="table table-striped table-bordered table-hover">
+<!--			<thead>
+				<tr>
+					<th style="" class="text-center">Kawasan</a></th>
+					<th class="TableHeader text-center">Jenis Kelamin</a></th>
+					<th class="TableHeader text-center">APM</a></th>
+					<th class="TableHeader text-center">APM+*)</a></th>
+					<th></th>
+				</tr>
+			</thead> -->
+			<tbody>
+				<tr>
+					<td rowspan="4" class="TableHeader text-center" style="vertical-align: middle;">Kawasan</td>
+					<td rowspan="4" class="TableHeader text-center" style="vertical-align: middle;">Jenis Kelamin</td>
+					<td colspan="18" class="TableHeader text-center">Jenjang Pendidikan</td>
+
+				</tr>
+				<tr>
+					<td colspan="6" class="TableHeader text-center">SD</td>
+					<td colspan="6" class="TableHeader text-center">SMA</td>
+					<td colspan="6" class="TableHeader text-center">SMU</td>
+				</tr>
+				<tr>
+					<td colspan="3" class="TableHeader text-center">APM</td>
+					<td colspan="3" class="TableHeader text-center">APM+</td>
+					<td colspan="3" class="TableHeader text-center">APM</td>
+					<td colspan="3" class="TableHeader text-center">APM+</td>
+					<td colspan="3" class="TableHeader text-center">APM</td>
+					<td colspan="3" class="TableHeader text-center">APM+</td>
+				</tr>
+				<tr>
+					<td class="TableHeader text-center">2013</td>
+					<td class="TableHeader text-center">2014</td>
+					<td class="TableHeader text-center">2015</td>
+					<td class="TableHeader text-center">2013</td>
+					<td class="TableHeader text-center">2014</td>
+					<td class="TableHeader text-center">2015</td>
+					<td class="TableHeader text-center">2013</td>
+					<td class="TableHeader text-center">2014</td>
+					<td class="TableHeader text-center">2015</td>
+					<td class="TableHeader text-center">2013</td>
+					<td class="TableHeader text-center">2014</td>
+					<td class="TableHeader text-center">2015</td>
+					<td class="TableHeader text-center">2013</td>
+					<td class="TableHeader text-center">2014</td>
+					<td class="TableHeader text-center">2015</td>
+					<td class="TableHeader text-center">2013</td>
+					<td class="TableHeader text-center">2014</td>
+					<td class="TableHeader text-center">2015</td>
+				</tr>
+				<tr>
+					<td rowspan="3" class="text-center" style="vertical-align: middle;">Pedesaan</td>
+					<td>laki-laki</td>
+					<td>97,23</td>
+					<td>94,21</td>
+					<td>92,23</td>
+					<td>95,52</td>
+					<td>94,27</td>
+					<td>95,32</td>
+					<td>95,52</td>
+					<td>94,27</td>
+					<td>94,21</td>
+					<td>92,23</td>
+					<td>95,52</td>
+					<td>95,52</td>
+					<td>94,27</td>
+					<td>95,32</td>
+					<td>94,21</td>
+					<td>92,23</td>
+					<td>95,52</td>
+					<td>95,52</td>
+					
+				</tr>
+				<tr>
+					<td>perempuan</td>
+					<td>94,21</td>
+					<td>92,23</td>
+					<td>95,52</td>
+					<td>95,52</td>
+					<td>94,27</td>
+					<td>95,32</td>
+					<td>94,21</td>
+					<td>92,23</td>
+					<td>97,23</td>
+					<td>94,21</td>
+					<td>92,23</td>
+					<td>95,52</td>
+					<td>94,27</td>
+					<td>95,32</td>
+					<td>94,21</td>
+					<td>92,23</td>
+					<td>95,52</td>
+					<td>95,52</td>			
+				</tr>
+				<tr>
+					<td>laki-laki + perempuan</td>
+					<td>94,21</td>
+					<td>92,23</td>
+					<td>95,52</td>
+					<td>92,23</td>
+					<td>95,52</td>
+					<td>94,21</td>
+					<td>95,32</td>
+					<td>94,21</td>
+					<td>92,23</td>
+					<td>95,32</td>
+					<td>94,21</td>
+					<td>94,21</td>
+					<td>92,23</td>
+					<td>95,52</td>
+					<td>92,23</td>
+					<td>95,52</td>
+					<td>94,21</td>
+					<td>95,51</td>	
+				</tr>
+				<tr>
+					<td rowspan="3" class="text-center" style="vertical-align: middle;">Perkotaan</td>
+					<td>laki-laki</td>
+					<td>97,23</td>
+					<td>94,21</td>
+					<td>92,23</td>
+					<td>95,52</td>
+					<td>94,27</td>
+					<td>95,32</td>
+					<td>95,52</td>
+					<td>94,27</td>
+					<td>94,21</td>
+					<td>92,23</td>
+					<td>95,52</td>
+					<td>95,52</td>
+					<td>94,27</td>
+					<td>95,32</td>
+					<td>94,21</td>
+					<td>92,23</td>
+					<td>95,52</td>
+					<td>95,52</td>
+					
+				</tr>
+				<tr>
+					<td>perempuan</td>
+					<td>94,21</td>
+					<td>92,23</td>
+					<td>95,52</td>
+					<td>95,52</td>
+					<td>94,27</td>
+					<td>95,32</td>
+					<td>94,21</td>
+					<td>92,23</td>
+					<td>97,23</td>
+					<td>94,21</td>
+					<td>92,23</td>
+					<td>95,52</td>
+					<td>94,27</td>
+					<td>95,32</td>
+					<td>94,21</td>
+					<td>92,23</td>
+					<td>95,52</td>
+					<td>95,52</td>			
+				</tr>
+				<tr>
+					<td>laki-laki + perempuan</td>
+					<td>94,21</td>
+					<td>92,23</td>
+					<td>95,52</td>
+					<td>92,23</td>
+					<td>95,52</td>
+					<td>94,21</td>
+					<td>95,32</td>
+					<td>94,21</td>
+					<td>92,23</td>
+					<td>95,32</td>
+					<td>94,21</td>
+					<td>94,21</td>
+					<td>92,23</td>
+					<td>95,52</td>
+					<td>92,23</td>
+					<td>95,52</td>
+					<td>94,21</td>
+					<td>95,51</td>	
+				</tr>
+					<td rowspan="3" class="text-center" style="vertical-align: middle;">Pedesaan + Perkotaan</td>
+					<td>laki-laki</td>
+					<td>97,23</td>
+					<td>94,21</td>
+					<td>92,23</td>
+					<td>95,52</td>
+					<td>94,27</td>
+					<td>95,32</td>
+					<td>95,52</td>
+					<td>94,27</td>
+					<td>94,21</td>
+					<td>92,23</td>
+					<td>95,52</td>
+					<td>95,52</td>
+					<td>94,27</td>
+					<td>95,32</td>
+					<td>94,21</td>
+					<td>92,23</td>
+					<td>95,52</td>
+					<td>95,52</td>
+					
+				</tr>
+				<tr>
+					<td>perempuan</td>
+					<td>94,21</td>
+					<td>92,23</td>
+					<td>95,52</td>
+					<td>95,52</td>
+					<td>94,27</td>
+					<td>95,32</td>
+					<td>94,21</td>
+					<td>92,23</td>
+					<td>97,23</td>
+					<td>94,21</td>
+					<td>92,23</td>
+					<td>95,52</td>
+					<td>94,27</td>
+					<td>95,32</td>
+					<td>94,21</td>
+					<td>92,23</td>
+					<td>95,52</td>
+					<td>95,52</td>			
+				</tr>
+				<tr>
+					<td>laki-laki + perempuan</td>
+					<td>94,21</td>
+					<td>92,23</td>
+					<td>95,52</td>
+					<td>92,23</td>
+					<td>95,52</td>
+					<td>94,21</td>
+					<td>95,32</td>
+					<td>94,21</td>
+					<td>92,23</td>
+					<td>95,32</td>
+					<td>94,21</td>
+					<td>94,21</td>
+					<td>92,23</td>
+					<td>95,52</td>
+					<td>92,23</td>
+					<td>95,52</td>
+					<td>94,21</td>
+					<td>95,51</td>	
+				</tr>
+			</tbody>				
+		</table>
+	</div>
+	<div class="col-3">Sumber: BPS RI - Susenas, 2009-2012</div> 
+			<div class="row" id="custom_links"></div>
+			<div class="clearfix"></div>
+			<div style="height: 70px;" class="hidden-print"></div>						
+			<div style="height: 60px;" class="hidden-print"></div>
+			<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+				<p class="navbar-text"><small>
+					&copy; 2015 Rahmat Sabilludin Nurmughni</a>
+				</small></p>
+				<div style="float: right;">
+				<p class="navbar-text">
+					<small>
+						<a href=""><i class="icon icon-comments-alt"></i> Masukan dan Bantuan</a>
+					</small>
+				</p>
+				<p class="navbar-text">
+					<small>
+						<a href=""><i class="icon icon-comments-alt"></i> Hubungi Kami</a>
+					</small>
+				</p>
+				</div>
+			</nav>
+			
+		</div> <!-- /div class="container" -->
+	</body>
+	<script src="js/highcharts.js"></script>
+	<script src="js/data.js"></script>
+	<script src="js/drilldown.js"></script>
+	<script src="js/circle-chart.js"></script>
+
+</html>

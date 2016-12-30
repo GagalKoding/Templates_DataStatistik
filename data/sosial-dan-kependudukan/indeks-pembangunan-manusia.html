@@ -1,0 +1,180 @@
+<html class="no-js">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="description" content="DIGIDATIK adalah media online yang didalamnya berisi mengenai data statistik Indonesia">
+		<meta name="author" content="Rahmat Sabilludin Nurmughni">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Indeks Pembangunan Manusia | Data Statistik</title>
+		<link rel="shortcut icon" href="../../../images/fav.ico"/>
+
+		<link rel="stylesheet" type="text/css" href="../../resources/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="../../../css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="../css/morris.css">
+
+		<script src="../../resources/js/jquery-1.10.1.min.js"></script>
+		<script src="../../resources/js/vendor/bootstrap.min.js"></script>
+		<script src="../../resources/js/js_css.js"></script>
+		<script src="js/indeks-pembangunan-manusia.js"></script>
+		<script src="js/exporting.js"></script>
+
+	<style>
+		.panel-body-description{
+			margin-top: 10px;
+			height: 100px;
+			overflow: auto;
+		}
+		.panel-body .btn img{
+			margin: 0 10px;
+			max-height: 32px;
+		}
+	</style>
+
+	</head>
+	<body>
+		<div class="container">
+			<nav class="navbar navbar-default navbar-fixed-top hidden-print" role="navigation">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				
+					<a class="navbar-brand" href="#">Data Statistik</a>
+				</div>
+
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="../../sosial-dan-kependudukan.html" class="btn btn-danger navbar-btn visible-sm visible-md visible-lg"><i class="icon icon-chevron-left"></i> Back</a>
+						</li>
+						<li>
+							<a href="../../../index.html" class="btn btn-danger navbar-btn visible-sm visible-md visible-lg"><i class="icon icon-home"></i> Portal</a>
+						</li>
+						<li>
+							<a href="../../index.html" class="btn btn-danger navbar-btn visible-sm visible-md visible-lg"><i class="icon icon-tasks"></i> Beranda</a>
+						</li>
+						<li>
+							<a href="../../publikasi.html" class="btn btn-danger navbar-btn visible-sm visible-md visible-lg"><i class="icon icon-book"></i> Publikasi</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<div style="height: 70px;" class="hidden-print"></div>
+
+			<div class="row" id="table_links">
+				<div class="text-center range-height">
+					<h2>Indeks Pembangunan Manusia</h2>
+					Selamat datang di laman Data Statistik Indeks Pembangunan Manusia.<br/> Disini anda bisa menemukan informasi mengenai data Indeks Pembangunan Manusia. 
+					<hr/>
+				</div>
+				<div class="col-lg-6 text-center">
+					<div id="ipm" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+				</div>
+				<div class="col-lg-6 text-center">
+					<div id="ipm-circle" style="min-width: 310px; max-width: 600px; height: 400px; margin: 0 auto"></div>
+				</div>
+			</div>
+			
+			<div class="row" id="table_links">
+				<div class="col-lg-12">
+					<div class="panel panel-info">
+						<div class="panel-body">
+						<div class="text-center range-height">
+						<h3 class="icon icon-lightbulb"> Konsep</h3></div>
+						<p>I. Pembangunan Manusia
+Mengutip isi Human Development Report (HDR) pertama tahun 1990, pembangunan manusia adalah suatu proses untuk memperbanyak pilihan-pilihan yang dimiliki oleh manusia. Diantara banyak pilihan tersebut, pilihan yang terpenting adalah untuk berumur panjang dan sehat, untuk berilmu pengetahuan, dan untuk mempunyai akses terhadap sumber daya yang dibutuhkan agar dapat hidup secara layak.</p><p>II. Indeks Pembangunan Manusia (IPM)
+Indeks Pembangunan Manusia (IPM) mengukur capaian pembangunan manusia berbasis sejumlah komponen dasar kualitas hidup. Sebagai ukuran kualitas hidup, IPM dibangun melalui pendekatan tiga dimensi dasar. Dimensi tersebut mencakup umur panjang dan sehat; pengetahuan, dan kehidupan yang layak. Ketiga dimensi tersebut memiliki pengertian sangat luas karena terkait banyak faktor. Untuk mengukur dimensi kesehatan, digunakan angka harapan hidup waktu lahir. Selanjutnya untuk mengukur dimensi pengetahuan digunakan gabungan indikator angka melek huruf dan rata-rata lama sekolah. Adapun untuk mengukur dimensi hidup layak digunakan indikator kemampuan daya beli masyarakat terhadap sejumlah kebutuhan pokok yang dilihat dari rata-rata besarnya pengeluaran per kapita sebagai pendekatan pendapatan yang mewakili capaian pembangunan untuk hidup layak.</p>
+<div class="text-center range-height"><img src="img/konsep.png" alt=""></div><br/>
+<p>III. Komponen Indeks Pembangunan Manusia</p>
+  <p>a. Angka Harapan Hidup</p>
+      <p>Angka Harapan Hidup (AHH) pada waktu lahir merupakan rata-rata perkiraan banyak tahun yang dapat ditempuh oleh
+      seseorang selama hidup.</p>
+<br/>
+  <p>b. Angka Melek Huruf</p>
+      <p>Angka melek huruf adalah persentase penduduk usia 15 tahun keatas yang dapat membaca dan menulis huruf latin dan
+      atau huruf lainnya.</p>
+<br/>
+  <p>c. Rata-Rata Lama Sekolah</p>
+     <p> Rata-rata lama sekolah menggambarkan jumlah tahun yang digunakan oleh penduduk usia 15 tahun keatas dalam menjalani
+      pendidikan formal.</p>
+<br/>
+  <p>d. Pengeluaran Riil per Kapita yang disesuaikan</p>
+      <p>UNDP mengukur standar hidup layak menggunakan Produk Domestik Bruto (PDB) riil yang disesuaikan, sedangkan BPS dalam menghitung standar hidup layak menggunakan rata-rata pengeluaran per kapita riil yang disesuaikan dengan formula
+      Atkinson.</p>
+      <img src="img/konsep1.png" alt="">
+      <p>Keterangan :</p>
+<p>C(i) = PPP dari nilai riil pengeluaran per kapita.</p>
+<p>Z = Batas tingkat pengeluaran yang ditetapkan secara arbiter sebesar Rp549.500 per kapita per tahun atau Rp 1.500 per kapita per hari </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="panel panel-info">
+						<div class="panel-body">
+						<div class="text-center range-height"><h3 class="icon icon-bookmark"> Metodologi</h3>
+						</div>
+						<p>I. Penyusunan Indeks pembangunan manusia (IPM)</p>
+<p>Sebelum penghitungan IPM, setiap komponen IPM harus dihitung indeksnya. Formula yang digunakan dalam penghitungan indeks komponen IPM adalah sebagai berikut:</p>
+<img src="img/metodologi.png" alt="">
+<p>Keterangan :</p> 
+<p>X(i)        = Komponen IPM ke-i </p>
+<p>X(min)    = Nilai minimum dari komponen IPM ke-i</p> 
+<p>X(maks) = Nilai maksimum dari komponen IPM ke-i.</p><br/>
+<p>II. Reduksi Shortfall</p>
+<p>Untuk mengukur kecepatan perkembangan IPM dalam suatu kurun waktu digunakan ukuran reduksi shortfall per tahun. Reduksi shortfall menunjukkan perbandingan antara capaian yang telah ditempuh dengan capaian yang harus ditempuh untuk mencapai titik IPM ideal (100). Semakin tinggi nilai reduksi shortfall, semakin cepat peningkatan IPM.</p>
+<img src="img/metodologi1.png">
+<p>Keterangan:</p>
+<p>r            = Reduksi Shortfall</p>
+<p>t            = tahun</p>
+<p>n           = selisih tahun antar-IPM</p>
+<p>IPMideal = 100</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="panel panel-info">
+						<div class="panel-body">
+						<div class="text-center range-height"><h3 class="icon icon-book"> Daftar Tabel</h3><br/>
+							Silahkan klik daftar tabel dibawah ini untuk melihat detail informasi.
+						</div>
+						<ul>
+						<a href="angka-harapan-hidup.html"><li>Angka Harapan Hidup Penduduk Beberapa Negara (tahun), 2015</li></a>
+						<a href="ipm2015.html"><li>Indeks Pembangunan Manusia, 2010-2014 (Metode Baru )</li></a>
+						<a href="ipm2015.html"><li>Indeks Pembangunan Manusia Menurut Provinsi, 2015</li></a>
+						</ul>
+						
+					</div>
+				</div>
+			</div>
+
+			<div class="row" id="custom_links"></div>
+			<div class="clearfix"></div>
+			<div style="height: 70px;" class="hidden-print"></div>						
+			<div style="height: 60px;" class="hidden-print"></div>
+			<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+				<p class="navbar-text"><small>
+					&copy; 2015 Rahmat Sabilludin Nurmughni - ITFair Competition</a>
+				</small></p>
+				<div style="float: right;">
+				<p class="navbar-text">
+					<small>
+						<a href=""><i class="icon icon-comments-alt"></i> Masukan dan Bantuan</a>
+					</small>
+				</p>
+				<p class="navbar-text">
+					<small>
+						<a href=""><i class="icon icon-comments-alt"></i> Hubungi Kami</a>
+					</small>
+				</p>
+				</div>
+			</nav>
+			
+		</div> <!-- /div class="container" -->
+	</body>
+	<script src="js/highcharts.js"></script>
+	<script src="js/data.js"></script>
+	<script src="js/drilldown.js"></script>
+</html>

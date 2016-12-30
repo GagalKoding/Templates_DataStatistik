@@ -1,0 +1,231 @@
+<html class="no-js">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="description" content="DIGIDATIK adalah media online yang didalamnya berisi mengenai data statistik Indonesia">
+		<meta name="author" content="Rahmat Sabilludin Nurmughni">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Perumahan | Data Statistik</title>
+		<link rel="shortcut icon" href="../../../images/fav.ico"/>
+
+		<link rel="stylesheet" type="text/css" href="../../resources/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="../../../css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="../css/morris.css">
+
+		<script src="../../resources/js/jquery-1.10.1.min.js"></script>
+		<script src="../../resources/js/vendor/bootstrap.min.js"></script>
+		<script src="../../resources/js/js_css.js"></script>
+
+	<style>
+		.panel-body-description{
+			margin-top: 10px;
+			height: 100px;
+			overflow: auto;
+		}
+		.panel-body .btn img{
+			margin: 0 10px;
+			max-height: 32px;
+		}
+	</style>
+
+	</head>
+	<body>
+		<div class="container">
+			<nav class="navbar navbar-default navbar-fixed-top hidden-print" role="navigation">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				
+					<a class="navbar-brand" href="#">Data Statistik</a>
+				</div>
+
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="../../sosial-dan-kependudukan.html" class="btn btn-danger navbar-btn visible-sm visible-md visible-lg"><i class="icon icon-chevron-left"></i> Back</a>
+						</li>
+						<li>
+							<a href="../../../index.html" class="btn btn-danger navbar-btn visible-sm visible-md visible-lg"><i class="icon icon-home"></i> Portal</a>
+						</li>
+						<li>
+							<a href="../../index.html" class="btn btn-danger navbar-btn visible-sm visible-md visible-lg"><i class="icon icon-tasks"></i> Beranda</a>
+						</li>
+						<li>
+							<a href="../../publikasi.html" class="btn btn-danger navbar-btn visible-sm visible-md visible-lg "><i class="icon icon-book"></i> Publikasi</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<div style="height: 70px;" class="hidden-print"></div>
+
+			<div class="row" id="table_links">
+				<div class="text-center range-height">
+					<h2>Perumahan</h2>
+					Selamat datang di laman Data Statistik Perumahan.<br/> Disini anda bisa menemukan informasi mengenai data Perumahan penduduk Indonesia. 
+					<hr/>
+				</div>
+				<div class="col-lg-12 text-center">
+					<div id="perumahan" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+				</div>
+			</div>
+			
+			<div class="row" id="table_links">
+				<div class="col-lg-12">
+					<div class="panel panel-info">
+						<div class="panel-body">
+							<div class="text-center range-height">
+								<h3 class="icon icon-lightbulb"> Konsep</h3>
+							</div>
+							<pre>Rumah tangga dibedakan menjadi
+ 
+1.Rumah tangga biasa adalah seseorang atau sekelompok orang yang mendiami sebagian atau seluruh bangunan fisik atau sensus, dan biasanya tinggal bersama serta makan dari satu dapur. Rumah tangga biasanya terdiri dari ibu, bapak dan anak, selain itu yang termasuk/dianggap sebagai rt biasa antara lain :
+Seseorang yang menyewa kamar atau sebagian bangunan sensus tetapi makannya diurus sendiri.
+Keluarga yang tinggal terpisah di dua bangunan sensus tetapi makannya dari satu dapur, asal kedua bangunan sensus tersebut dalam blok sensus yang sama.
+Pondokan dengan makan (indekost) yang pemondoknya kurang dari 10 orang. Pemondok dianggap sebagai anggota rumah tangga induk semangnya.
+Beberapa orang yang bersama-sama mendiami satu kamar dalam bangunan sensus walaupun mengurus makannya sendiri-sendiri dianggap satu rumah tangga biasa
+
+2. Rumah Tangga Khusus, yang termasuk/dianggap sebagai rumah tangga khusus antara lain : O rang-orang yang tinggal di asrama, yaitu tempat tinggal yang pengurusan kebutuhan sehari-harinya diatur oleh suatu yayasan atau badan, misalnya, asrama perawat, asrama TNI dan POLRI (tangsi). Anggota TNI dan POLRI yang tinggal bersama keluarganya dan mengurus sendiri kebutuhan sehari-harinya bukan rt khusus.
+Orang-orang yang tinggal di lembaga permasyarakatan, panti asuhan, rumah tahanan.
+Sekelompok orang yang mondok dengan makan (indekost) yang berjumlah lebih besar atau sama dengan 10 orang.
+
+Kepala rumah tangga (KRT)
+adalah seorang dari sekelompok anggota rumah tangga yang bertanggung jawab atas kebutuhan sehari-hari, atau yang dianggap/ditunjuk sebagai krt.
+ 
+Anggota rumah tangga (ART)
+adalah semua orang yang biasanya bertempat tinggal, di suatu rt, baik yang berada di rt pada waktu pencacahan maupun sementara tidak ada. ART yang telah bepergian selama 6 bulan atau lebih, dan art yang bepergian kurang dari 6 bulan tetapi dengan tujuan pindah/akan meninggalkan rumah selama 6 bulan atau lebih tidak dianggap art. Orang yang tinggal di rt selama 6 bulan atau lebih atau yang telah tinggal di rt kurang dari 6 bulan tetapi berniat pindah/bertempat tinggal di rt tersebut selama 6 bulan atau lebih dianggap sebagai art.
+ 
+Bangunan fisik
+adalah tempat berlindung yang mempunyai dinding, lantai, dan atap baik tetap maupun sementara, baik digunakan untuk tempat tinggal maupun bukan tempat tinggal. Bangunan yang luas lantainya kurang dari 10 m2 dan tidak digunakan untuk tempat tinggal dianggap bukan bangunan fisik.
+ 
+Status Penguasaan Tempat Tinggal
+Milik sendiri, jika tempat tinggal tersebut pada waktu pencacahan betul-betul sudah milik krt atau salah satu seorang art. Rumah yang dibeli secara angsuran melalui kredit bank atau rumah dengan statussewa beli dianggap sebagai rumah milik sendiri.
+Kontrak, jika tempat tinggal tersebut disewa oleh krt/art dalam jangka waktu tertentu berdasarkan perjanjian kontrak antara pemilik dan pemakai, misalnya 1 atau 2 tahun. Cara pembayarannya biasanya sekaligus di muka atau dapat diangsur menurut persetujuan kedua belah pihak.
+Sewa, jika tempat tinggal tersebut disewa oleh krt atau salah seorang art dengan pembayaran sewanya secara teratur dan terus menerus tanpa batasan waktu tertentu.
+Bebas sewa milik orang lain, jika tempat tinggal tersebut diperoleh dari pihak lain (bukan famili/orang tua)dan ditempati/didiami oleh rt tanpa mengeluarkan suatu pembayaran apapun.
+Rumah milik orang tua/sanak/saudara, jika tempat tinggal tersebut bukan milik sendiri melainkan milik orang tua/sanak/saudara, dan tidak mengeluarkan suatu pembayaran apapun untuk mendiami tempat tinggal tersebut.
+Rumah dinas, jika tempat tinggal tersebut diperoleh dari pihak lain (bukan famili/orang tua) dan ditempati/didiami oleh rt tanpa mengeluarkan suatu pembayaran apapun.
+Lainnya, jika tempat tinggal tersebut tidak dapat digolongkan ke dalam salah satu kategori di atas, misalnya tempat tinggal milik bersama, rumah adat.
+
+Atap
+adalah penutup bagian atas suatu bangunan sehingga krt/art yang mendiami di bawahnya terlindung dari terik matahari, hujan dan sebagainya. Untuk bangunan bertingkat, atap yang dimaksud adalah bagian teratas dari bangunan tersebut.
+Beton adalah atap yang terbuat dari campuran semen, kerikil, dan pasir yang dicampur dengan air.
+Genteng adalah tanah liat yang dicetak dan dibakar. Termasuk pula genteng beton (genteng yang terbuat dari campuran semen dan pasir), genteng fiber cement, dan genteng keramik.
+Sirap adalah atap yang terbuat dari kepingan kayu yang tipis dan biasanya terbuat dari kayu ulin atau kayu besi.
+Seng adalah atap yang terbuat dari bahan seng. Atap seng berbentuk seng rata, seng gelombang, termasuk genteng seng yang lazim disebut decrabond (seng yang dilapisi epoxy dan acrylic).
+Asbes adalah atap yang terbuat dari campuran serat asbes dan semen. Pada umumnya atap asbes berbentuk gelombang.
+Ijuk/rumbia adalah atap yang terbuat dari serat pohon aren/enau atau sejenisnya yang umumnya berwarna hitam.
+Lainnya adalah atap selain jenis atap di atas, misalnya papan, bambu, dan daun-daunan.
+
+Dinding adalah sisi luar/batas dari suatu bangunan atau penyekat dengan bangunan fisik lain.
+Tembok adalah dinding yang terbuat dari susunan bata merah atau batako biasanya dilapisi plesteran semen. Termasuk dalam kategori ini adalah Dinding yang terbuat dari pasangan batu merah dan diplester namun dengan tiang kolom berupa kayu balok, yang biasanya berjarak 1 - 1,5 m;
+Kayu adalah dinding yang terbuat dari kayu;
+Bambu/rumbia adalah dinding yang terbuat dari bambu atau rumbia. Termasuk dalam kategori ini adalah dinding yang terbuat dari anyaman bambu dengan luas kurang lebih 1 m x 1 m yang dibingkai dengan balok, kemudian diplester dengan campuran semen dan pasir.
+Lainnya adalah selain kategori 1-3.
+ 
+Lantai adalah bagian bawah/dasar/alas suatu ruangan, baik terbuat dari marmer, keramik, granit, tegel/teraso, semen, kayu, tanah dan lainnya seperti bambu.
+
+Air Minum Layak adalah air leding eceran/meteran, air hujan, dan pompa/sumur terlindung/mata air terlindung dengan jarak ke tempat penampungan kotoran/tinja >= 10 m
+
+Kriteria Sanitasi Layak adalah
+
+Fasilitas tempat buang air besar adalah sendiri atau bersama
+
+Jenis kloset adalah leher angsa
+
+Tempat pembuangan akhir tinja adalah menggunakan tangki/SPAL
+
+Sumber Penerangan terbagi menjadi:
+Listrik PLN adalah sumber penerangan listrik yang dikelola oleh PLN.
+Listrik non-PLN adalah sumber penerangan listrik yang dikelola oleh instansi/pihak lain selain PLN termasuk yang menggunakan sumber penerangan dari accu (aki), generator, dan pembangkit listrik tenaga surya (yang tidak dikelola oleh PLN).
+Petromak/aladin adalah sumber penerangan dari minyak tanah seperti petromak/lampu tekan, dan aladin (termasuk lampu gas).
+Pelita/sentir/obor adalah lampu minyak tanah lainnya (lampu teplok, sentir, pelita, dan sejenisnya)
+Lainnya seperti Lampu karbit, lilin, biji jarak, dan kemiri.</pre>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="panel panel-info">
+						<div class="panel-body">
+							<div class="text-center range-height"><h3 class="icon icon-bookmark"> Metodologi</h3>
+							</div>
+							<pre>Pengumpulan data dari rumah tangga terpilih dilakukan melalui wawancara tatap muka antara pencacah dengan responden. Untuk pertanyaan-pertanyaan dalam kuesioner Susenas yang ditujukan kepada individu diusahakan agar individu yang bersangkutan yang menjadi responden. Sedangkan pertanyaan-pertanyaan dalam kuesioner yang ditujukan kepada rumah tangga dikumpulkan melalui wawancara dengan kepala rumah tangga, suami/isteri kepala rumah tangga atau anggota rumah tangga lain yang mengetahui tentang karakteristik yang ditanyakan.
+ 
+Susenas 2009
+Kerangka sampel yang digunakan dalam Susenas 2009 terdiri dari 3 jenis, yaitu: kerangka sampel untuk pemilihan blok sensus, kerangka sampel untuk pemilihan subblok sensus (khusus untuk blok sensus yang bermuatan rumah tangga lebih dari 150 rumah tangga), dan kerangka sampel untuk pemilihan rumah tangga dalam blok sensus/subblok sensus terpilih.
+Kerangka sampel blok sensus adalah daftar blok sensus biasa hasil Sensus Ekonomi 2006 (Frame BS SE06) yang dilengkapi dengan jumlah rumah tangga hasil pencacahan Pendaftaran Pemilih dan Pendataan Penduduk Berkelanjutan (P4B). Kerangka sampel blok sensus ini mencakup blok sensus di 471 kabupaten/kota dan dibedakan menurut daerah perkotaan dan perdesaan. Pelaksanaan Susenas Juli 2009 mencakup sebanyak 18.243 blok sensus atau sebanyak 291.888 rumah tangga sampel yang tersebar di seluruh wilayah geografis Indonesia.
+Kerangka sampel rumah tangga adalah daftar rumah tangga hasil pendaftaran rumah tangga yang menggunakan Daftar VSEN2009.L. Kerangka sampel rumah tangga ini dibedakan menurut tiga kelompok golongan pengeluaran rumah tangga sebulan.
+ 
+Susenas 2008
+Kerangka sampel yang digunakan dalam Susenas Juli 2008 terdiri dari 3 jenis, yaitu: kerangka sampel untuk pemilihan blok sensus, kerangka sampel untuk pemilihan subblok sensus (khusus untuk blok sensus yang bermuatan rumah tangga lebih besar dari 150 rumah tangga), dan kerangka sampel untuk pemilihan rumah tangga dalam blok sensus/subblok sensus terpilih.
+Kerangka sampel blok sensus adalah daftar blok sensus biasa hasil Sensus Ekonomi 2006 (Frame BS SE06) yang dilengkapi dengan jumlah rumah tangga hasil pencacahan Pendaftaran Pemilih dan Pendataan Penduduk Berkelanjutan (P4B). Kerangka sampel blok sensus ini mencakup blok sensus di 457 kabupaten/kota dan dibedakan menurut daerah perkotaan dan perdesaan.
+Susenas 2008 mencakup sebanyak 17.869 blok sensus yang menyebar di seluruh kabupaten/kota. Sebanyak 4.300 blok sensus di antaranya merupakan blok sensus sampel pada pelaksanaan Susenas Panel Maret 2008. Pada setiap blok sensus akan dicacah sebanyak 16 rumah tangga, sehingga secara nasional pencacahan Susenas Juli 2008 akan mencacah sebanyak 285.904 rumah tangga sampel.
+ 
+Susenas 2007
+Susenas Juli 2007 mencakup sebanyak 285.904 rumah tangga sampel yang menyebar di seluruh kabupaten/kota di Indonesia, dengan rincian 68.800 rumah tangga sampel Kor-Modul dan 217.104 rumah tangga sampel Kor tanpa Modul.
+ 
+Susenas 2006
+Kerangka sampel blok sensus 2006 adalah daftar blok sensus biasa hasil pencacahan P4B (keadaan April 2003) yang dilengkapi dengan jumlah rumah tangga hasil pencacahan. Kerangka sampel blok sensus ini mencakup blok sensus di 440 kabupaten/kota dan dibedakan menurut daerah perkotaan dan perdesaan.
+Susenas 2006 mencakup sebanyak 278.352 rumah tangga sampel yang menyebar di seluruh kabupaten/kota di Indonesia, dengan rincian 68.800 rumah tangga sampel Kor-Modul dan 209.552 rumah tangga sampel Kor tanpa Modul.
+ 
+Susenas 2005
+Kerangka sampel blok sensus 2005 adalah daftar blok sensus biasa hasil pencacahan P4B (keadaan April 2003) yang dilengkapi dengan jumlah rumah tangga hasil pencacahan. Kerangka sampel blok sensus ini mencakup blok sensus di 440 kabupaten/kota dan dibedakan menurut daerah perkotaan dan perdesaan.
+Susenas 2005 mencakup sebanyak 278.352 rumah tangga sampel yang menyebar di seluruh kabupaten/kota di Indonesia, dengan rincian 68.288 rumah tangga sampel Kor-Modul dan 210.064 rumah tangga sampel Kor tanpa Modul.
+ 
+Susenas 2004
+Susenas 2004 dilaksanakan di seluruh wilayah Indonesia dengan ukuran sampel sebanyak 249.376 rumah tangga tersebar baik di daerah perkotaan maupun perdesaan, dengan rincian untuk sampel Kor-Modul sebanyak 67.072 rumah tangga dan untuk sampel Kor (tanpa modul) sebanyak 182.304 rumah tangga.
+Karena keterbatasan anggaran, jumlah kabupaten/kota yang tercakup dalam Susenas 2004 sebanyak 377 kabupaten/kota, belum mencakup jumlah seluruh kabupaten/kota yaitu sebanyak 416 kabupaten/kota.</pre>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="panel panel-info">
+						<div class="panel-body">
+							<div class="text-center range-height">
+								<h3 class="icon icon-book"> Daftar Tabel</h3><br/>
+							Silahkan klik daftar tabel dibawah ini untuk melihat detail informasi.
+							</div>
+							<ul>
+								<a href="indikator-perumahan.html"><li>Indikator Perumahan 1993-2013</li></a>
+								<a href="indikator-perumahan.html"><li>Jumlah Rusunawa dan Perumnas yang dibangun (Unit)</li></a>
+								<a href="indikator-perumahan.html"><li>Persentase Rumah Tangga menurut Provinsi dan Atap Terluas Bukan Ijuk/Lainnya, 1993-2013</li></a>
+								<a href="indikator-perumahan.html"><li>Persentase Rumah Tangga menurut Provinsi dan Dinding Terluas bukan Bambu/lainnya, 1993-2013</li></a>
+								<a href="indikator-perumahan.html"><li>Persentase Rumah Tangga menurut Provinsi dan Lantai Terluas bukan Tanah, 1993-2013</li></a>
+							</ul>
+						</div>					
+					</div>
+				</div>
+			</div>
+
+			<div class="row" id="custom_links"></div>
+			<div class="clearfix"></div>
+			<div style="height: 70px;" class="hidden-print"></div>						
+			<div style="height: 60px;" class="hidden-print"></div>
+			<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+				<p class="navbar-text"><small>
+					&copy; 2015 Rahmat Sabilludin Nurmughni - ITFair Competition</a>
+				</small></p>
+				<div style="float: right;">
+				<p class="navbar-text">
+					<small>
+						<a href=""><i class="icon icon-comments-alt"></i> Masukan dan Bantuan</a>
+					</small>
+				</p>
+				<p class="navbar-text">
+					<small>
+						<a href=""><i class="icon icon-comments-alt"></i> Hubungi Kami</a>
+					</small>
+				</p>
+				</div>
+			</nav>
+			
+		</div> <!-- /div class="container" -->
+	</body>
+	<script src="js/highcharts.js"></script>
+	<script src="js/data.js"></script>
+	<script src="js/exporting.js"></script>
+	<script src="js/perumahan.js"></script>
+</html>

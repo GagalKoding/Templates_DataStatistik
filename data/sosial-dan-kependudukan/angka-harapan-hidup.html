@@ -1,0 +1,250 @@
+<html class="no-js">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="description" content="DIGIDATIK adalah media online yang didalamnya berisi mengenai data statistik Indonesia">
+		<meta name="author" content="Rahmat Sabilludin Nurmughni">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Angka Harapan Hidup | Data Statistik</title>
+		<link rel="shortcut icon" href="../../../images/fav.ico"/>
+
+		<link rel="stylesheet" type="text/css" href="../../resources/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="../../../css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="../css/morris.css">
+
+		<script src="../../resources/js/jquery-1.10.1.min.js"></script>
+		<script src="../../resources/js/vendor/bootstrap.min.js"></script>
+		<script src="../../resources/js/js_css.js"></script>
+		<script src="js/gender.js"></script>
+
+	<style>
+		.panel-body-description{
+			margin-top: 10px;
+			height: 100px;
+			overflow: auto;
+		}
+		.panel-body .btn img{
+			margin: 0 10px;
+			max-height: 32px;
+		}
+	</style>
+
+	</head>
+	<body>
+		<div class="container">
+			<nav class="navbar navbar-default navbar-fixed-top hidden-print" role="navigation">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				
+					<a class="navbar-brand" href="#">Data Statistik</a>
+				</div>
+
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="indeks-pembangunan-manusia.html" class="btn btn-danger navbar-btn visible-sm visible-md visible-lg"><i class="icon icon-chevron-left"></i> Back</a>
+						</li>
+						<li>
+							<a href="../../../index.html" class="btn btn-danger navbar-btn visible-sm visible-md visible-lg"><i class="icon icon-home"></i> Portal</a>
+						</li>
+						<li>
+							<a href="../../index.html" class="btn btn-danger navbar-btn visible-sm visible-md visible-lg"><i class="icon icon-tasks"></i> Beranda</a>
+						</li>
+						<li>
+							<a href="../../publikasi.html" class="btn btn-danger navbar-btn visible-sm visible-md visible-lg"><i class="icon icon-book"></i> Publikasi</a>
+						</li>
+					</ul>
+				
+				</div>
+			</nav>
+			<div style="height: 70px;" class="hidden-print"></div>
+
+			<div class="row">
+	<div class="col-xs-11 col-md-12">
+		<div class="page-header">
+			<h1><div class="row">
+				<div class="col-sm-8">
+					<i class="icon icon-book"></i> Angka Harapan Hidup
+				</div>
+				</div>
+			</h1>
+		</div>
+
+		<div id="top_buttons" class="hidden-print">
+			<div class="btn-group btn-group-lg visible-md visible-lg all_records pull-left">
+				<a href="javascript:window.print();" type="submit" name="" id="btnPrint" value="" class="btn btn-default">Print Preview</a>
+				<button onClick="" type="submit" name="" id="CSV" value="" class="btn btn-default">Simpan ke CSV</button>
+				<button onClick="" type="submit" name="" id="Filter" value="" class="btn btn-default">Filter</button>
+				<button onClick="" type="submit" name="" id="NoFilter" value="" class="btn btn-default">Lihat Semua</button>
+			</div>
+
+			<div class="btn-group-vertical btn-group-lg visible-xs visible-sm all_records">
+				<button onClick="" type="submit" name="Print_x" id="Print" value="1" class="btn btn-default">Print Preview</button>
+				<button onClick="" type="submit" name="CSV_x" id="CSV" value="1" class="btn btn-default">Simpan ke CSV</button>
+				<button onClick="" type="submit" name="Filter_x" id="Filter" value="1" class="btn btn-default">Filter</button>
+				<button onClick="" type="submit" name="NoFilter_x" id="NoFilter" value="1" class="btn btn-default">Lihat Semua</button>
+			</div>
+
+			<div class="clearfix">
+			
+		</div>
+		<p></p>
+	</div>
+
+	<div class="table-responsive">
+		<table class="table table-striped table-bordered table-hover">
+			<thead>
+				<tr>
+					<th style="" class="text-center">Negara</a></th>
+					<th class="TableHeader text-center">1995-2000</a></th>
+					<th class="TableHeader text-center">2000-2005</a></th>
+					<th class="TableHeader text-center">2005-2010</a></th>
+					<th class="TableHeader text-center">2010-2015</a></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="text-center">Amerika</td>
+					<td class="text-center">76,4</td>
+					<td class="text-center">77,1 r</td>
+					<td class="text-center">78,1 r</td>
+					<td class="text-center">78,9 r</td>
+				</tr>
+				<tr>
+					<td class="text-center">Arab Saudi</td>
+					<td class="text-center">71,6 r</td>
+					<td class="text-center">73,1 r</td>
+					<td class="text-center">74,3 r</td>
+					<td class="text-center">75,4 r</td>
+				</tr>
+				<tr>
+					<td class="text-center">Australia</td>
+					<td class="text-center">78,9 r</td>
+					<td class="text-center">80,4 r</td>
+					<td class="text-center">81,1 r</td>
+					<td class="text-center">81,24 r</td>
+				</tr>
+				<tr>
+					<td class="text-center">Bangladesh</td>
+					<td class="text-center">64,1</td>
+					<td class="text-center">64,2 r</td>
+					<td class="text-center">64,11 r</td>
+					<td class="text-center">64,21 r</td>
+				</tr>
+				<tr>
+					<td class="text-center">Belanda</td>
+					<td class="text-center">77,4</td>
+					<td class="text-center">77,8 r</td>
+					<td class="text-center">78,1 </td>
+					<td class="text-center">78,21 r</td>
+				</tr>
+				<tr>
+					<td class="text-center">Belgia</td>
+					<td class="text-center">77,3 r</td>
+					<td class="text-center">77,7 r</td>
+					<td class="text-center">78,1 r</td>
+					<td class="text-center">79,9 r</td>
+				</tr>
+				<tr>
+					<td class="text-center">Brazil</td>
+					<td class="text-center">69,4 r</td>
+					<td class="text-center">71,0 r</td>
+					<td class="text-center">72,4 r</td>
+					<td class="text-center">73,9 r</td>
+				</tr>
+				<tr>
+					<td class="text-center">Cina</td>
+					<td class="text-center">70,4</td>
+					<td class="text-center">73,1 r</td>
+					<td class="text-center">74,1 r</td>
+					<td class="text-center">75,9 r</td>
+				</tr>
+				<tr>
+					<td class="text-center">Denmark</td>
+					<td class="text-center">76,4</td>
+					<td class="text-center">77,1 r</td>
+					<td class="text-center">78,1 r</td>
+					<td class="text-center">79,9 r</td>
+				</tr>
+				<tr>
+					<td class="text-center">Filipina</td>
+					<td class="text-center">66,4</td>
+					<td class="text-center">67,1 r</td>
+					<td class="text-center">67,50 r</td>
+					<td class="text-center">67,98 r</td>
+				</tr>
+				<tr>
+					<td class="text-center">Hongkong</td>
+					<td class="text-center">79,4</td>
+					<td class="text-center">81,1 r</td>
+					<td class="text-center">82,4 r</td>
+					<td class="text-center">83,3 r</td>
+				</tr>
+				<tr>
+					<td class="text-center">India</td>
+					<td class="text-center">61,4</td>
+					<td class="text-center">63,1 r</td>
+					<td class="text-center">64,9 r</td>
+					<td class="text-center">66,4 r</td>
+				</tr>
+				<tr>
+					<th class="text-center">*Indonesia</th>
+					<td class="text-center">66,0</td>
+					<td class="text-center">67,8 r</td>
+					<td class="text-center">69,1 r</td>
+					<td class="text-center">70,1 r</td>
+				</tr>
+				<tr>
+					<td class="text-center">Italia</td>
+					<td class="text-center">78,5</td>
+					<td class="text-center">80,2 r</td>
+					<td class="text-center">81,5 r</td>
+					<td class="text-center">83,9 r</td>
+				</tr>
+				<tr>
+					<td class="text-center">Jepang</td>
+					<td class="text-center">80,4</td>
+					<td class="text-center">81,1 r</td>
+					<td class="text-center">81,5 r</td>
+					<td class="text-center">83,5 r</td>
+				</tr>
+
+			</tbody>				
+		</table>
+	</div>
+	<div class="col-3">Catatan:   r) Angka diperbaiki<br/>1) Data estimasi dengan ragam fertilitas medium<br/>2) Data bersumber dari  BPS
+<p>Sumber:  United Nations: "World Population Prospect: The 2015 Revision Population Database"</p></div>
+			<div class="row" id="custom_links"></div>
+			<div class="clearfix"></div>
+			<div style="height: 70px;" class="hidden-print"></div>						
+			<div style="height: 60px;" class="hidden-print"></div>
+			<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+				<p class="navbar-text"><small>
+					&copy; 2015 Rahmat Sabilludin Nurmughni - ITFair Competition</a>
+				</small></p>
+				<div style="float: right;">
+				<p class="navbar-text">
+					<small>
+						<a href=""><i class="icon icon-comments-alt"></i> Masukan dan Bantuan</a>
+					</small>
+				</p>
+				<p class="navbar-text">
+					<small>
+						<a href=""><i class="icon icon-comments-alt"></i> Hubungi Kami</a>
+					</small>
+				</p>
+				</div>
+			</nav>
+			
+		</div> <!-- /div class="container" -->
+	</body>
+	<script src="js/highcharts.js"></script>
+	<script src="js/data.js"></script>
+	<script src="js/drilldown.js"></script>
+	<script src="js/circle-chart.js"></script>
+</html>

@@ -1,0 +1,311 @@
+<html class="no-js">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="description" content="DIGIDATIK adalah media online yang didalamnya berisi mengenai data statistik Indonesia">
+		<meta name="author" content="Rahmat Sabilludin Nurmughni">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Transportasi | Data Statistik</title>
+		<link rel="shortcut icon" href="../../../images/fav.ico"/>
+
+		<link rel="stylesheet" type="text/css" href="../../resources/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="../../../css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="../css/morris.css">
+
+		<script src="../../resources/js/jquery-1.10.1.min.js"></script>
+		<script src="../../resources/js/vendor/bootstrap.min.js"></script>
+		<script src="../../resources/js/js_css.js"></script>
+		<script src="../sosial-dan-kependudukan/js/exporting.js"></script>
+
+	<style>
+		.panel-body-description{
+			margin-top: 10px;
+			height: 100px;
+			overflow: auto;
+		}
+		.panel-body .btn img{
+			margin: 0 10px;
+			max-height: 32px;
+		}
+	</style>
+
+	</head>
+	<body>
+		<div class="container">
+			<nav class="navbar navbar-default navbar-fixed-top hidden-print" role="navigation">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				
+					<a class="navbar-brand" href="#">Data Statistik</a>
+				</div>
+
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="../../ekonomi-dan-perdagangan.html" class="btn btn-danger navbar-btn visible-sm visible-md visible-lg"><i class="icon icon-chevron-left"></i> Back</a>
+						</li>
+						<li>
+							<a href="../../../index.html" class="btn btn-danger navbar-btn visible-sm visible-md visible-lg"><i class="icon icon-home"></i> Portal</a>
+						</li>
+						<li>
+							<a href="../../index.html" class="btn btn-danger navbar-btn visible-sm visible-md visible-lg"><i class="icon icon-tasks"></i> Beranda</a>
+						</li>
+						<li>
+							<a href="../../publikasi.html" class="btn btn-danger navbar-btn visible-sm visible-md visible-lg"><i class="icon icon-comments-alt"></i> Publikasi</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<div style="height: 70px;" class="hidden-print"></div>
+
+			<div class="row" id="table_links">
+				<div class="text-center range-height">
+					<h2>Transportasi</h2>
+					Selamat datang di laman Data Statistik Transportasi.<br/> Disini anda bisa menemukan informasi mengenai data Transportasi Indonesia. 
+					<hr/>
+				</div>
+				<div class="col-lg-6 text-center">
+					<div id="transportasi" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+				</div>
+				<div class="col-lg-6 text-center">
+					<div id="perbandingan" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+<table id="datatable" style="display: none;">
+    <thead>
+        <tr>
+            <th></th>
+            <th>Mobil</th>
+            <th>Motor</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>2011</th>
+            <td>45</td>
+            <td>55</td>
+        </tr>
+        <tr>
+            <th>2012</th>
+            <td>46</td>
+            <td>54</td>
+        </tr>
+        <tr>
+            <th>2013</th>
+            <td>50</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <th>2014</th>
+            <td>40</td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <th>2015</th>
+            <td>35</td>
+            <td>65</td>
+        </tr>
+    </tbody>
+</table>
+				</div>
+			</div>
+			
+			<div class="row" id="table_links">
+				<div class="col-lg-12">
+					<div class="panel panel-info">
+						<div class="panel-body">
+						<div class="text-center range-height">
+						<h3 class="icon icon-lightbulb"> Konsep</h3></div>
+						<p>Angkutan Darat</p>
+
+<p>Terminologi yang digunakan dalam penyajian data angkutan darat adalah sebagai berikut :</p>
+<ul>
+<li>Kendaraan bermotor
+adalah setiap kendaraan yang digerakkan oleh peralatan teknik yang ada pada kendaraan tersebut, biasanya digunakan untuk angkutan orang atau barang diatas jalan raya selain kendaraan yang berjalan di atas rel. Kendaraan bermotor yang dicatat adalah semua jenis kendaraan kecuali kendaraan bermotor TNI/Polri dan Korps Diplomatik.</li>
+
+<li>Mobil Penumpang
+adalah setiap kendaraan bermotor yang dilengkapi dengan tempat duduk untuk sebanyak-banyaknya delapan orang, tidak termasuk tempat duduk untuk pengemudi, baik dilengkapi atau tidak dilengkapi bagasi</li>
+<li>Mobil bis
+adalah setiap kendaraan bermotor yang dilengkapi dengan tempat duduk untuk lebih dari delapan orang, tidak termasuk tempat duduk untuk pengemudi, baik dilengkapi atau tidak dilengkapi bagasi.</li>
+
+<li>Mobil Truk
+adalah setiap kendaraan bermotor yang digunakan untuk angkutan barang, selain mobil penumpang, mobil bis, dan kendaraan bermotor roda dua.</li>
+<li>Sepeda Motor
+adalah setiap kendaraan bermotor yang beroda dua.</li>
+
+<li>Surat Ijin Mengemudi (SIM)
+adalah surat yang dikeluarkan oleh kepolisian sebagai tanda kelayakan seseorang mengendarai suatu kendaraan bermotor. Data yang disajikan terdiri dari surat yang dikeluarkan pada tahun yang bersangkutan, baik SIM baru, perpanjangan maupun SIM penggantian akibat hilang atau rusak. SIM dibagi menjadi beberapa jenis yaitu SIM A, SIM BI, SIM BII dan SIM C.</li>
+
+<li>SIM A
+adalah surat ijin untuk mengemudikan mobil penumpang, mobi bus, dan mobil barang yang mempunyai berat tidak lebih dari 3500 kilogram.</li>
+<li>SIM BI
+adalah surat ijin untuk mengemudikan mobil bus dan mobil barang yang mempunyai berat diatas 3500 kilogram.</li>
+<li>SIM BII
+adalah surat ijin untuk mengemudikan traktor atau kendaraan bermotor dengan menarik kereta tempelan atau gandengan dengan berat yang diperbolehkan untuk kereta tempelan atau kereta gandengan lebih dari 1000 kilogram.</li>
+<li>SIM C
+adalah surat ijin untuk mengemudikan sepeda motor yang dirancang mampu mencapai kecepatan lebih dari 40 kilometer per jam.</li>
+
+<li>Jalan
+adalah jalan dalam bentuk apapun yang terbuka untuk lalu lintas kendaraan umum. Data yang disajikan dalam publikasi ini adalah semua jalan di Indonesia baik di bawah wewenang pemerintah pusat maupun tingkat I dan tingkat II.</li>
+
+<li>Kereta api
+adalah kendaraan dengan tenaga gerak (listrik, diesel, atau tenaga uap) yang berjalan sendiri maupun dirangkaikan dengan kendaraan lain, yang akan atau sedang bergerak diatas rel, terdiri dari kereta penumpang dan kereta barang.</li>
+
+<li>Kilometer penumpang
+adalah jumlah kilometer dari semua penumpang yang berangkat. Besaran ini merupakan penjumlahan jarak tujuan masing-masing penumpang.</li>
+
+<li>Rata-rata Jarak Perjalanan Per Penumpang
+adalah rata-rata yang ditempuh oleh setiap penumpang, atau kilometer penumpang dibagi dengan jumlah penumpang berangkat.</li>
+
+<li>Kilometer Ton
+adalah jumlah kilometer semua ton yang diangkut. Besaran ini merupakan hasil penjumlahan jarak asal tujuan masing-masing dalam ton.</li>
+
+<li>Rata-rata Jarak Angkut Barang
+adalah rata-rata jarak yang ditempuh oleh setiap ton barang atau jumlah kilometer ton dibagi dengan ton dimuat.</li>
+
+<li>Angkutan Laut
+Bongkar/Impor Barang
+adalah pembongkaran barang dari kapal, baik barang yang diangkut dari pelabuhan asal di Indonesia ataupun dari luar negeri.</li>
+
+<li>Muat/Ekspor Barang
+adalah pemuatan barang ke kapal untuk diangkut ke pelabuhan tujuan di Indonesia atau ke luar negeri.
+</li>
+<li>Pelabuhan
+adalah tempat yang terdiri dari daratan dan perairan di sekitarnya dengan batas-batas tertentu sebagai tempat kegiatan pemerintahan dan kegiatan ekonomi yang dipergunakan sebagai tempat kapal bersandar, berlabuh, naik turun penumpang dan atau bongkar muat barang yang dilengkapi dengan fasilitas keselamatan pelayaran dan kegiatan penunjang pelabuhan serta sebagai tempat perpindahan intra dan antar moda transportasi.
+</li>
+<li>Pelabuhan Umum
+adalah pelabuhan yang diselenggarakan untuk kepentingan pelayanan masyarakat umum.
+</li>
+<li>Pelabuhan Laut
+adalah pelabuhan umum yang menurut kegiatannya melayani kebiatan angkutan laut.
+</li>
+<li>Kantor Administrator Pelabuhan (ADPEL)/Kantor Pelabuhan (KANPEL)
+adalah unit pelaksana teknis di lingkungan Direktorat Jenderal Perhubungan Laut, yang berada di bawah dan bertanggung jawab kepada Direktur Jenderal Perhubungan Laut.
+</li>
+<li>Pelabuhan yang diusahakan
+adalah pelabuhan yang dikelola secara komersial oleh PT (Persero) Pelabuhan Indonesia, untuk memberikan fasilitas pelayanan yang diperlukan bagi kapal yang memasuki pelabuhan untuk melakukan kegiatan bongkar muat barang dan lain-lain.
+</li>
+<li>Pelabuhan yang tidak diusahakan
+adalah pelabuhan laut yang dikelola oleh Unit Pelaksana Teknis/Satuan Kerja pelabuhan di lingkungan Kantor Wilayah Departemen Perhubungan yang pembinaan teknis operasional dilaksanakan oleh Direktorat Jenderal Perhubungan Laut. Sedangkan tugas dan fungsinya sama dengan pelabuhan yang diusahakan, tetapi fasilitas yang dimiliki belum selengkap pelabuhan yang diusahakan.
+</li>
+<li>Pelayaran Antar Pulau
+adalah perusahaan/usaha yang melakukan kegiatan pelayaran antar pelabuhan di Indonesia
+</li>
+<li>Pelayaran Luar Negeri
+adalah perusahaan/usaha yang melakukan kegiatan angkutan laut ke atau dari luar negeri yang dilakukan secara tetap dan teratur dan atau dengan pelayaran tidak tetap dan tidak teratur dengan menggunakan semua jenis kapal.
+</li>
+<li>Jenis Pelayaran Untuk Yang Tidak Diusahakan atau Pelabuhan Dibawah Naungan Ditjen Perhubungan Laut
+adalah berdasarkan jenis bendera kapal. Bendera Ri didefinisikan sebagai jenis pelayaran dalam negeri, sedangkan bendera asing didefinisikan sebagai jenis pelayaran luar negeri.
+</li>
+<li>Pelabuhan Strategis
+adalah pelabuhan yang dianggap telah dilengkapi dengan berbagai fasilitas modern, diantaranya fasilitas untuk pelayaran angkutan peti kemas, barang curah, barang umum dan penumpang serta mempunyai kepadatan pergerakan kapal.
+</li>
+<li>Kunjungan Kapal
+adalah kapal yang datang di pelabuhan baik untuk berlabuh di perairan maupun bersandar di dermaga.
+</li>
+<li>Gross Ton (GT)
+adalah volume ruangan kapal dalam m kubik meliputi volume ruangan kapal kecuali tunnel(terowongan), lubang poros baling-baling, chain locker (tempat jangkar) dan alas ganda.
+</li>
+<li>Penumpang Naik
+adalah penumpang yang naik ke kapal untuk berangkat ke pelabuhan tujuan.
+</li>
+<li>Penumpang Turun
+adalah penumpang yang turun dari kapal yang diangkut dari pelabuhan asal.
+</li></ul>
+<p>Angkutan Udara</p>
+<ul>
+</li>Jadwal Penerbangan
+Penerbangan yang dilakukan secara teratur dengan rute dan jadwal yang tetap.</li>
+</ul>
+<li>Aircraft-Km
+Jumlah jarak penerbangan (Km) selama periode waktu tertentu (satu tahun).
+</li>
+<li>Performed Seat-Km
+Hasil perkalian antara jumlah tempat duduk yang tersedia dengan jarak penerbangan (Km) dari tiap-tiap penerbangan selama periode waktu tertentu.
+</li>
+<li>Performed Total-Km
+Jumlah perkalian berat barang (ton) dengan jarak (Km)dari tiap-tiap penerbangan selama periode waktu tertentu (satu tahun)</li></ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="panel panel-info">
+						<div class="panel-body">
+						<div class="text-center range-height"><h3 class="icon icon-bookmark"> Metodologi</h3>
+						</div>
+						<p>Pengumpulan Data</p>
+<ul><li>Statistik Kendaraan Bermotor<br/>
+dikumpulkan berdasarkan metode pendaftaran yang didapat dari Kantor Kepolisian.
+</li>
+<li>Statistik Kereta Api<br/>
+dikumpulkan berdasarkan metode pendaftaran yang didapat dari PTKA.
+</li>
+<li>Statistik Angkutan Sungai<br/>
+dikumpulkan berdasarkan metode pendaftaran yang didapat dari Pelabuhan-pelabuhan.
+</li>
+<li>Statistik Panjang Jalan didasarkan pada survei yang dilakukan BPS dan Kantor pemerintah setempat sebagai responden.</li>
+
+<li>Statistik Angkutan Laut<br/>
+dikumpulkan dengan sensus dari pelabuhan laut komersial dan non komersial seluruh Indonesia.
+</li>
+<li>Statistik Angkutan Udara<br/>
+Pengumpulan data yang dapat memberikan gambaran tentang aktifitas angkutan udara antar bandar udara secara nasional dilakukan melalui beberapa cara. Untuk lalu lintas angkutan udara berupa asal tujuan, pergerakan pesawat udara, penumpang, bagasi, barang dan pos/paket dikumpulkan dari bandar udara baik yang dikelola oleh PT. (Persero) Angkasa Pura maupun Direktorat Jenderal Perhubungan Udara, melalui Kantor Wilayah Departemen Perhubungan di daerah yang bersangkutan. Data lalu lintas angkutan udara yang dikumpulkan inimerupakan rekapitulasi terhadap aktivitas penerbangan masing-masing bandar udara setiap bulan. Sedangkan data registrasi pesawat dikumpulkan dari Direktorat Penerbangan Sipil serta data produksi perusahaan penerbangan berjadwal diperoleh dari perusahaan yang bersangkutan kemudian dilengkapi dengan data dari Direktorat Jenderal Perhubungan Udara.</li></ul>
+<p>Cakupan</p>
+
+<ul><li>Kegiatan-kegiatan ini mencakup 3 jenis transportasi, yaitu tranportasi darat, laut dan udara. Statistik Angkutan Darat berisi informasi statistik semua kendaraan bermotor di Indonesia kecuali kendaraan militer dan diplomatik; Informasi panjang jalan didapat dari kantor pemerintah pusat atau daerah; dan transportasi kereta api mengumpulkan informasi penumpang dan barang di Jawa, Madura dan Sumatera.</li>
+<li>Statistik Angkutan Laut memberikan informasi statistik tentang pelabuhan seperti cargo, jumlah keberangkatan dan kedatangan serta trafik kapal.</li>
+<li>Statistik Angkutan Udara mencakup jadual penerbangan dan baik domestik dan internasional; dan statistik pelabuhan udara baik komersial dan non komersial seluruh Indonesia.</li></ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="panel panel-info">
+						<div class="panel-body">
+						<div class="text-center range-height"><h3 class="icon icon-book"> Daftar Tabel</h3><br/>
+							Silahkan klik daftar tabel dibawah ini untuk melihat detail informasi.
+						</div>
+						<ul>
+						<a href="#"><li>Bongkar Muat Barang Antar Pulau dan Luar Negeri di Pelabuhan Indonesia Tahun 1988-2013</li></a>
+						<a href="#"><li>Jumlah Barang Melalui Transportasi Kereta Api Menurut Pulau, 2006-2015</li></a>
+						<a href="#"><li>Jumlah Barang yang Dimuat pada Penerbangan Domestik di Bandara Utama Indonesia (Bandara Polonia, Sukarno Hatta, Juanda, Ngurah Rai dan Hasanudin), 2006-2015</li></a>
+						<a href="#"><li>Jumlah Barang yang Dimuat pada Penerbangan Internasional di Bandara Utama Indonesia (Bandara Polonia, Sukarno Hatta, Juanda dan Ngurahrai), 2006-2015 (Ton)</li></a>
+						<a href="#"><li>Jumlah Keberangkatan Penumpang dan Barang di Bandara Indonesia Tahun 1999-2013</li></a>
+						</ul>
+						
+					</div>
+				</div>
+			</div>
+
+			<div class="row" id="custom_links"></div>
+			<div class="clearfix"></div>
+			<div style="height: 70px;" class="hidden-print"></div>						
+			<div style="height: 60px;" class="hidden-print"></div>
+			<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+				<p class="navbar-text"><small>
+					&copy; 2015 Rahmat Sabilludin Nurmughni - ITFair Competition</a>
+				</small></p>
+				<div style="float: right;">
+				<p class="navbar-text">
+					<small>
+						<a href=""><i class="icon icon-comments-alt"></i> Masukan dan Bantuan</a>
+					</small>
+				</p>
+				<p class="navbar-text">
+					<small>
+						<a href=""><i class="icon icon-comments-alt"></i> Hubungi Kami</a>
+					</small>
+				</p>
+				</div>
+			</nav>
+			
+		</div> <!-- /div class="container" -->
+	</body>
+	<script src="../sosial-dan-kependudukan/js/highcharts.js"></script>
+	<script src="../sosial-dan-kependudukan/js/data.js"></script>
+	<script src="js/transportasi.js"></script>
+	
+</html>

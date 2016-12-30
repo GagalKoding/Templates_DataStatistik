@@ -1,0 +1,180 @@
+<html class="no-js">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="description" content="DIGIDATIK adalah media online yang didalamnya berisi mengenai data statistik Indonesia">
+		<meta name="author" content="Rahmat Sabilludin Nurmughni">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Beranda | Data Statistik</title>
+		<link rel="shortcut icon" href="../../../images/fav.ico"/>
+
+		<link rel="stylesheet" type="text/css" href="../../resources/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="../../../css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="../css/morris.css">
+
+		<script src="../../resources/js/jquery-1.10.1.min.js"></script>
+		<script src="../../resources/js/vendor/bootstrap.min.js"></script>
+		<script src="../../resources/js/js_css.js"></script>
+		<script src="../sosial-dan-kependudukan/js/exporting.js"></script>
+
+	<style>
+		.panel-body-description{
+			margin-top: 10px;
+			height: 100px;
+			overflow: auto;
+		}
+		.panel-body .btn img{
+			margin: 0 10px;
+			max-height: 32px;
+		}
+	</style>
+
+	</head>
+	<body>
+		<div class="container">
+			<nav class="navbar navbar-default navbar-fixed-top hidden-print" role="navigation">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				
+					<a class="navbar-brand" href="#">Data Statistik</a>
+				</div>
+
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="../../ekonomi-dan-perdagangan.html" class="btn btn-danger navbar-btn visible-sm visible-md visible-lg"><i class="icon icon-chevron-left"></i> Back</a>
+						</li>
+						<li>
+							<a href="../../../index.html" class="btn btn-danger navbar-btn visible-sm visible-md visible-lg"><i class="icon icon-home"></i> Portal</a>
+						</li>
+						<li>
+							<a href="../../index.html" class="btn btn-danger navbar-btn visible-sm visible-md visible-lg"><i class="icon icon-tasks"></i> Beranda</a>
+						</li>
+						<li>
+							<a href="../../publikasi.html" class="btn btn-danger navbar-btn visible-sm visible-md visible-lg"><i class="icon icon-comments-alt"></i> Publikasi</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<div style="height: 70px;" class="hidden-print"></div>
+
+			<div class="row" id="table_links">
+				<div class="text-center range-height">
+					<h2>Ekspor Impor</h2>
+					Selamat datang di laman Data Statistik Ekspor dan Impor.<br/> Disini anda bisa menemukan informasi mengenai data Ekspor Impor Indonesia. 
+					<hr/>
+				</div>
+				<div class="col-lg-12 text-center">
+					<div id="eksporimpor" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+				</div>
+			</div>
+			
+			<div class="row" id="table_links">
+				<div class="col-lg-12">
+					<div class="panel panel-info">
+						<div class="panel-body">
+						<div class="text-center range-height">
+						<h3 class="icon icon-lightbulb"> Konsep</h3></div>
+						<pre>Perdagangan luar negeri 
+
+terdiri dari ekspor dan impor barang-barang 
+Cakupan komoditas
+
+Semua jenis barang termasuk kecuali yang termasuk dibawah ini:
+Pakaian dan perhiasan dari para penumpang.
+Barang bawaan penumpang yang digunakan untuk keperluan sendiri, kecuali lemari es, televisi, dsb.
+Barang-barang yang diekspor / diimpor dari suatu negara untuk digunakan untuk keperluan kedutaan besar negara tersebut.
+Barang-barang yang digunakan untuk keperluan ekspedisi dan pameran.
+Barang-barang yang di ekspor / diimpor secara langsung oleh angkatan bersenjata.
+Peti Kemas yang dimaksudkan untuk diisi.
+Catatan-catatan dari Bank dan keamanan.
+Barang-barang contoh.
+
+
+Sistem Perdagangan
+
+Statistik ekspor berdasarkan pada Sistem Perdagangan Umum yang meliputi seluruh area geografi Indonesia.
+Statistik Impor berdasarkan pada Sistem Perdagangan Khusus yang meliputi seluruh area geografi Indonesia kecuali Zona Perdagangan Bebas dimana berlaku Perdagangan Luar Negeri.
+
+
+Penilaian
+
+Ekspor mengacu pada nilai Free On Board (FOB).
+Impor mengacu pada nilai Cost Insurance and Freight (CIF).
+Keduanya dinyatakan dalam Dollar Amerika (USD)
+
+
+Pengukuran Kuantitas
+
+Semua kuantitas dinyatakan dalam bentuk berat netto dalam satuan kilogram.
+
+
+Rekan Negara
+
+Negara tujuan adalah negara yang pada saat pengiriman diketahui sebagai negara terakhir dimana barang tersebut akan terkirim.
+Negara asal adalah negara dimana barang-barang tersebut diproduksi, setelah diverifikasi oleh Kantor Bea Cukai, sesuai dengan peraturan.</pre>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="panel panel-info">
+						<div class="panel-body">
+						<div class="text-center range-height"><h3 class="icon icon-bookmark"> Metodologi</h3>
+						</div>
+						<pre>Sumber Data 
+
+Keseluruhan data dikumpulkan berdasarkan dokumen-dokumen keterangan ekspor impor yang dihasilkan oleh Kantor Pelayanan Bea dan Cukai. 
+
+Metode Pengumpulan 
+
+Data diperoleh berdasaekan penghitungan lengkap, dan diterima dari Kantor Pelayanan Bea dan Cukai yang berlokasi di negara tersebut. </pre>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="panel panel-info">
+						<div class="panel-body">
+						<div class="text-center range-height"><h3 class="icon icon-book"> Daftar Tabel</h3><br/>
+							Silahkan klik daftar tabel dibawah ini untuk melihat detail informasi.
+						</div>
+						<ul>
+						<a href="#"><li>Ekspor dan Impor Menurut Negara Tujuan</li></a>
+						</ul>
+						
+					</div>
+				</div>
+			</div>
+
+			<div class="row" id="custom_links"></div>
+			<div class="clearfix"></div>
+			<div style="height: 70px;" class="hidden-print"></div>						
+			<div style="height: 60px;" class="hidden-print"></div>
+			<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+				<p class="navbar-text"><small>
+					&copy; 2015 Rahmat Sabilludin Nurmughni - ITFair Competition</a>
+				</small></p>
+				<div style="float: right;">
+				<p class="navbar-text">
+					<small>
+						<a href=""><i class="icon icon-comments-alt"></i> Masukan dan Bantuan</a>
+					</small>
+				</p>
+				<p class="navbar-text">
+					<small>
+						<a href=""><i class="icon icon-comments-alt"></i> Hubungi Kami</a>
+					</small>
+				</p>
+				</div>
+			</nav>
+			
+		</div> <!-- /div class="container" -->
+	</body>
+	<script src="../sosial-dan-kependudukan/js/highcharts.js"></script>
+	<script src="js/ekspor-impor.js"></script>
+	
+</html>

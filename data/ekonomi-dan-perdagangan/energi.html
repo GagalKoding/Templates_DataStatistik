@@ -1,0 +1,188 @@
+<html class="no-js">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="description" content="DIGIDATIK adalah media online yang didalamnya berisi mengenai data statistik Indonesia">
+		<meta name="author" content="Rahmat Sabilludin Nurmughni">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Energi | Data Statistik</title>
+		<link rel="shortcut icon" href="../../../images/fav.ico"/>
+
+		<link rel="stylesheet" type="text/css" href="../../resources/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="../../../css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="../css/morris.css">
+
+		<script src="../../resources/js/jquery-1.10.1.min.js"></script>
+		<script src="../../resources/js/vendor/bootstrap.min.js"></script>
+		<script src="../../resources/js/js_css.js"></script>
+		<script src="../sosial-dan-kependudukan/js/exporting.js"></script>
+
+	<style>
+		.panel-body-description{
+			margin-top: 10px;
+			height: 100px;
+			overflow: auto;
+		}
+		.panel-body .btn img{
+			margin: 0 10px;
+			max-height: 32px;
+		}
+	</style>
+
+	</head>
+	<body>
+		<div class="container">
+			<nav class="navbar navbar-default navbar-fixed-top hidden-print" role="navigation">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				
+					<a class="navbar-brand" href="#">Data Statistik</a>
+				</div>
+
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="../../ekonomi-dan-perdagangan.html" class="btn btn-danger navbar-btn visible-sm visible-md visible-lg"><i class="icon icon-chevron-left"></i> Back</a>
+						</li>
+						<li>
+							<a href="../../../index.html" class="btn btn-danger navbar-btn visible-sm visible-md visible-lg"><i class="icon icon-home"></i> Portal</a>
+						</li>
+						<li>
+							<a href="../../index.html" class="btn btn-danger navbar-btn visible-sm visible-md visible-lg"><i class="icon icon-tasks"></i> Beranda</a>
+						</li>
+						<li>
+							<a href="../../publikasi.html" class="btn btn-danger navbar-btn visible-sm visible-md visible-lg"><i class="icon icon-comments-alt"></i> Publikasi</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<div style="height: 70px;" class="hidden-print"></div>
+
+			<div class="row" id="table_links">
+				<div class="text-center range-height">
+					<h2>Energi</h2>
+					Selamat datang di laman Data Statistik Energi.<br/> Disini anda bisa menemukan informasi mengenai data Energi Indonesia. 
+					<hr/>
+				</div>
+				<div class="col-lg-12 text-center">
+					<div id="energi" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+				</div>
+			</div>
+			
+			<div class="row" id="table_links">
+				<div class="col-lg-12">
+					<div class="panel panel-info">
+						<div class="panel-body">
+						<div class="text-center range-height">
+						<h3 class="icon icon-lightbulb"> Konsep</h3></div>
+						<pre>Statistik Air Bersih 
+
+Perusahaan Air Bersih 
+adalah perusahaan/usaha yang melakukan kegiatan pengadaan, penjernihan, penyediaan dan penyaluran air bersih secara langsung melalui pipa penyalur atau mobil tangki kepada pelanggan ke rumah tangga, industri dan konsumen lainnya dengan tujuan komersial. Perusahaan/ usaha air bersih yang dicakup adalah Perusahaan Air Minum (PAM), Perusahaan Daerah Air Minum (PDAM) dan Badan Pengelola Air Minum (BPAM) maupun perusahaan/usaha swasta lainnya. 
+
+Pekerja dan Pengeluaran Untuk Pekerja 
+adalah orang yang bekerja pada perusahaan air bersih, baik pekerja operasional dan perawatan maupun pekerja lainnya. Pengeluaran untuk pekerja adalah semua pengeluaran perusahaan untuk pekerja yaitu upah/gaji, upah lembur, hadiah, bonus, dana pensiun, tunjangan kecelakaan dan pengeluaran lainnya yang dibayarkan baik dalam bentuk uang maupun dalam bentuk barang. 
+
+Biaya input 
+adalah pengeluaran yang digunakan untuk pembelian bahan-bahan kimia, tenaga listrik, bahan bakar, alat-alat tulis dan kantor, onderdil, ongkos pemeliharaan dan perbaikan kecil prasarana produksi, sewa gedung dan mesin serta jasa-jasa lainnya. 
+
+Nilai output 
+adalah nilai dari air bersih yang disalurkan, tenaga listrik yang dijual dan penerimaan lainnya dari jasa non industri. 
+
+Statistik Listrik PLN 
+
+Perusahaan Listrik Negara 
+adalah perusahaan yang berusaha di bidang tenaga listrik untuk kepentingan masyarakat dan negara dan meliputi usaha-usaha seperti : 
+produksi, transmisi dan distribusi tenaga listrik
+perencanaan dan pembangunan tenaga listrik
+pengusahaan dan pengembangan tenaga listrik
+pengusahaan jasa-jasa di bidang tenaga listrik 
+
+Pekerja dan Pengeluaran Untuk Pekerja 
+adalah orang yang bekerja pada PT. PLN (Persero), baik pekerja operasional dan perawatan maupun pekerja lainnya. Pengeluaran untuk pekerja adalah semua pengeluaran perusahaan untuk pekerja yaitu upah/gaji, upah lembur, hadiah, bonus, dana pensiun, tunjangan kecelakaan dan pengeluaran lainnya yang dibayarkan baik dalam bentuk uang maupun dalam bentuk berupa barang. 
+
+Biaya Input 
+adalah pengeluaran yang digunakan untuk pembelian bahan bakar dan pelumas untuk membangkitkan listrik, tenaga listrik yang dibeli dari luar perusahaan, alat-alat tulis dan kantor, onderdil, ongkos pemeliharaan dan perbaikan kecil prasarana produksi, sewa gedung dan mesin serta jasa lainnya. 
+
+Nilai Output 
+adalah nilai tenaga listrik yang dijual atau didistribusikan kepada para pelanggan dan ditambah dengan pendapatan atau penerimaan dari kegiatan jasa perusahaan lainnya.
+
+
+Statistik Gas Kota 
+
+PT. Perusahaan Gas Negara (Persero) 
+atau PT. PGN (Persero) adalah perusahaan yang bergerak di bidang tenaga produksi gas kota untuk keperluan bahan bakar bagi rumah tangga, perusahaan industri, rumah sakit, hotel dan sebagainya. 
+
+Pekerja dan Pengeluaran Untuk Pekerja 
+adalah orang yang bekerja pada perusahaan umum gas negara, baik pekerja operasional dan perawatan maupun pekerja lainnya. Pengeluaran untuk pekerja adalah semua pengeluaran perusahaan untuk pekerja yaitu upah/gaji, upah lembur, hadiah, bonus, dana pensiun, tunjangan kecelakaan dan pengeluaran lainnya yang dibayarkan baik dalam bentuk uang maupun dalam bentuk berupa barang. 
+
+Biaya input 
+adalah pengeluaran yang digunakan untuk pembelian bahan baku, bahan bakar, alat tulis dan kantor, onderdil, ongkos pemeliharaan dan perbaikan kecil sarana produksi, sewa gedung dan mesin serta jasa lainnya. 
+
+Nilai Output 
+adalah nilai gas yang dijual/didistribusikan ditambah pendapatan atau penerimaan dari kegiatan lainnya termasuk jasa non industri</pre>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="panel panel-info">
+						<div class="panel-body">
+						<div class="text-center range-height"><h3 class="icon icon-bookmark"> Metodologi</h3>
+						</div>
+						<pre>Statistik Listrik PLN
+Survei Tahunan ini dilakukan dengan cara mengirim langsung daftar isian ke kantor pusat, kantor wilayah/distribusi PT.PLN (Persero) sebanyak 22 unit dengan menggunakan jasa pos (mailing system)
+
+Statistik Air Bersih
+Survei Tahunan Perusahaan Air Bersih dilakukan oleh Mantri Statistik atau staf BPS Kabupaten/Kota dengan cara pencacahan langsung ke setiap perusahaan. Pencacahan Perusahaan Air Bersih dilaksanakan secara lengkap di seluruh Indonesia.
+Statistik Gas Kota
+Survei Tahunan PT. Perusahaan Gas Negara (Persero) dilaksanakan dengan cara mengirim langsung daftar isian ke PT. PGN (Persero) dengan menggunakan jasa pos (mailing system). Pencacahan PT. PGN (Persero) dilakukan secara lengkap yang meliputi 7 perusahaan, yaitu PT. PGN (Persero) cabang Medan, Jakarta, Bogor, Bandung, Cirebon, dan Surabaya serta PT. PGN (Persero) Pusat.</pre>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="panel panel-info">
+						<div class="panel-body">
+						<div class="text-center range-height"><h3 class="icon icon-book"> Daftar Tabel</h3><br/>
+							Silahkan klik daftar tabel dibawah ini untuk melihat detail informasi.
+						</div>
+						<ul>
+						<a href="#"><li>Indikator Penting Perusahaan Gas, 2000-2013</li></a>
+						</ul>
+						
+					</div>
+				</div>
+			</div>
+
+			<div class="row" id="custom_links"></div>
+			<div class="clearfix"></div>
+			<div style="height: 70px;" class="hidden-print"></div>						
+			<div style="height: 60px;" class="hidden-print"></div>
+			<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+				<p class="navbar-text"><small>
+					&copy; 2015 Rahmat Sabilludin Nurmughni - ITFair Competition</a>
+				</small></p>
+				<div style="float: right;">
+				<p class="navbar-text">
+					<small>
+						<a href=""><i class="icon icon-comments-alt"></i> Masukan dan Bantuan</a>
+					</small>
+				</p>
+				<p class="navbar-text">
+					<small>
+						<a href=""><i class="icon icon-comments-alt"></i> Hubungi Kami</a>
+					</small>
+				</p>
+				</div>
+			</nav>
+			
+		</div> <!-- /div class="container" -->
+	</body>
+	<script src="../sosial-dan-kependudukan/js/highcharts.js"></script>
+	<script src="js/energi.js"></script>
+	
+</html>
